@@ -4,6 +4,10 @@
   "devDependencies": {
     "lerna": "^4.0.0"
   },
+  "scripts": {
+    "bootstrap": "lerna boostrap",
+    "start": "lerna run start --stream"
+  },
   "workspaces": [
     "packages/*",
     "apps/*"
